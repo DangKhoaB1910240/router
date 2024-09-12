@@ -55,7 +55,7 @@ function App() {
     }
   };
   const handleSubmit = async (e) => {
-    ////// nhánh 1 neeeeee mèo còn ú nu
+    ////// nhánh 1 neeeeee mèo còn ú nu con mèo già nua xấu xí
     e.preventDefault();
     const newId = posts.length ? Number(posts[posts.length - 1].id) + 1 : 1;
     const newPost = {
