@@ -55,7 +55,7 @@ function App() {
     }
   };
   const handleSubmit = async (e) => {
-    ////// nhánh 1 neeeeee
+    ////// nhánh 1 neeeeee mèo còn ú nu
     e.preventDefault();
     const newId = posts.length ? Number(posts[posts.length - 1].id) + 1 : 1;
     const newPost = {
